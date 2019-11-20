@@ -1,8 +1,8 @@
 function odd(){
-    startPoint = 1;
-    while (startpoint<10) {
+   var startPoint = 1;
+    while (startPoint<10) {
         console.log(startPoint)
-        startPoint = startPonit + 2;
+        startPoint = startPoint + 2;
     }
 }
 odd()

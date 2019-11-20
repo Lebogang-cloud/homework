@@ -6,21 +6,21 @@ function comp(a,b,c){
     if(b < a && b <c){ 
         min = b; 
     } 
-    else(c < a && c <b){ 
+    else { 
         min = c; 
     } 
     console.log("The minimum is " + min); 
-}
-comp(5,7,2);
+
+
 
 var min = 0;
-if(a > b && a >c){}
+if(a > b && a >c){
 max = a;
 }
 if(b > a && b > c) {
 max = b;
 }
-else(c > a && c > b){
+else {
 max = c;
 }
 console.log("The maximum is " + max);
